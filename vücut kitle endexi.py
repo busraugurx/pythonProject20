@@ -1,5 +1,5 @@
 print("vücut kitle endexi bulma: ")
-kilo=int(input("Lütfen kilonuzu giriniz: "))
+kilo=float(input("Lütfen kilonuzu giriniz: "))
 boy=int(input("Lütfen boyunuzu cm cinsinden giriniz: "))
 vücut_kütle_endexi= kilo/((boy*boy)/(100*100))
 print("Vücut kütle endexiniz: ",vücut_kütle_endexi)
